@@ -8,4 +8,4 @@ WORKDIR /app/backend
 
 RUN mvn clean package -DskipTests
 
-CMD ["java","-jar","target/*.jar"]
+CMD ["sh", "-c", "java -jar target/*.jar"]
