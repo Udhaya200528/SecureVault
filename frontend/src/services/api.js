@@ -2,7 +2,7 @@ import axios from 'axios';
 import toast from 'react-hot-toast';
 
 const api = axios.create({
-  baseURL: 'http://localhost:8080/api',
+  baseURL: "https://securevault-backend-e3em.onrender.com/api",
   timeout: 30000,
 });
 // Attach JWT token to every request
